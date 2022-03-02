@@ -1,0 +1,18 @@
+# Valid TOML config file
+data-path="/usr/app/data" # Path
+
+# Network
+bootnodes=["enode://3860a38a2d265a64b56a62fca0f6e038059e551c304dbd58213993093f9b47b0691d9eeb7a17200f8a14c71f6074734330e70571034645ecba7b4bf97613a471@127.0.0.1:30303"]
+
+rpc-http-enabled=true
+rpc-http-api=["ETH","NET","IBFT"]
+rpc-http-port=8547
+
+p2p-port=30305
+
+host-allowlist=["*"]
+
+rpc-http-cors-origins=["all"]
+
+# Chain
+genesis-file="/usr/app/genesis.json" # Path to the custom genesis file

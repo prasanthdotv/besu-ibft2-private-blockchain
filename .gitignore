@@ -1,0 +1,3 @@
+node-*/data/*
+
+!node-*/data/*.gitkeep
